@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+
+  .top-bar {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .btn {
+    background: rgb(241, 110, 62);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+  }
+  
+  .page-info {
+    margin-left: 1rem;
+  }
+
+  .go_to_page-info {
+    margin-left: 3rem;
+  }
+
+
+  
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+  .speech {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #151D24;
+    background-image: url("https://image.ibb.co/dQMeKk/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+  
+  .m-intro {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+    min-width: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .m-intro:before, .m-intro:after {
+    display: block;
+    content: " ";
+    width: 2560px;
+    height: 2560px;
+    position: absolute;
+    margin-top: -1280px;
+    margin-left: -1280px;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 50;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .m-intro:before {
+    background-image: url("https://image.ibb.co/dwBeKk/circle_inner.png");
+    background-size: 100% auto;
+    -webkit-animation: rotate 30s infinite linear;
+    animation: rotate 30s infinite linear;
+  }
+  
+  .m-intro:after {
+    background-image: url("https://image.ibb.co/gTN8C5/circle_outer.png");
+    background-size: 100% auto;
+    -webkit-animation: rotate 80s infinite linear;
+    animation: rotate 80s infinite linear;
+  }
+  
+  .m-intro .e-text {
+    width: auto;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .m-intro .e-text h1 {
+    color: #EA5847!important;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 100px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  @supports (-webkit-background-clip: text) {
+    .m-intro .e-text h1 {
+      background: radial-gradient(ellipse at center, #ed6744 0%, #ec543f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  .m-intro .e-text .subtitle {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .m-intro .e-text .preamble {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .e-particles-orange {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    width: 1000px;
+    height: 600px;
+    opacity: 0.4;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .e-particles-blue {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+  }
+  /*# sourceMappingURL=2..css.map */
+
+  .speech{
+      width: 100%;
+      margin-top: 100px;
+      height: auto;
+      padding: 4%;
+  }
+
+  sp-row{
+      border: 2px solid green!important;
+      width: 70%;
+  }
+
+  .form-group{
+      margin: 10px;
+  }
+
+  #voice-select{
+      color: black;
+  }
+
+::-webkit-scrollbar {width: 8px; height: 4px; background: #ffffff; }
+::-webkit-scrollbar-thumb { 
+  background-color: #f32d2d; 
+  height: 25px; 
+  -webkit-border-radius: 1ex;
+  /* background: linear-gradient(to right,#003B7C, #00538B, #83BBE6);  */
+  border-radius: 8px;
+ }
